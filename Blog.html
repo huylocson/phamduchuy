@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhamDucHuy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!----header--->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html">
+                <img src="Images/logo.png" alt="">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2021</h1>
+    </section>
+    <!---------Blog content-------->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="Images/certificate.jpg" alt="">
+                <h2>our Certificate & Online Programs For 2021</h2>
+                <p> Eduford is simply wonderful. The students, here, are amazing. It seems like almost everyday, you
+                    find out something about a fellow student that is breathtaking that you didn't know. At the same
+                    time, however, most people are so down-to-earth that you might not ever have guessed their
+                    magnificent accomplishments...and they're extremely nice.</p><br>
+                <p> Eduford is simply wonderful. The students, here, are amazing. It seems like almost everyday, you
+                    find out something about a fellow student that is breathtaking that you didn't know. At the same
+                    time, however, most people are so down-to-earth that you might not ever have guessed their
+                    magnificent accomplishments...and they're extremely nice.</p><br>
+                <p> Eduford is simply wonderful. The students, here, are amazing. It seems like almost everyday, you
+                    find out something about a fellow student that is breathtaking that you didn't know. At the same
+                    time, however, most people are so down-to-earth that you might not ever have guessed their
+                    magnificent accomplishments...and they're extremely nice.</p><br>
+                <p> Eduford is simply wonderful. The students, here, are amazing. It seems like almost everyday, you
+                    find out something about a fellow student that is breathtaking that you didn't know. At the same
+                    time, however, most people are so down-to-earth that you might not ever have guessed their
+                    magnificent accomplishments...and they're extremely nice.</p>
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form action="" class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                    </form>
+                </div>
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>23</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>43</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>13</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>76</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>45</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>85</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------Footer-------->
+    <section class="footer">
+        <h1>
+            About Us
+        </h1>
+        <p>If you want to know more about us, please contact us following these link <br> Thank you so much and have a
+            nice day. </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> By PhamDucHuy </p>
+    </section>
+
+    <!--------javascript for toggle menu -------->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showmenu() {
+            navLinks.style.right = "0";
+        }
+        function hidemenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
