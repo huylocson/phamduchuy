@@ -11,176 +11,187 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css"
         href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="load.css">
+
 </head>
 
 <body>
+    <div class="loader">
+        <div class="box"></div>
+        <div class="hill"></div>
+    </div>
+    <section class="main">
 
-    <!----header--->
-    <section class="header">
-        <nav>
-            <a href="index.html">
-                <img src="Images/logo.png" alt="">
-            </a>
-            <div class="nav-links" id="navLinks">
-                <i class="fa fa-times" onclick="hidemenu()"></i>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="Course.html">COURSE</a></li>
-                    <li><a href="Blog.html">BLOG</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
+        <!----header--->
+        <section class="header">
+            <nav>
+                <a href="index.html">
+                    <img src="Images/logo.png" alt="">
+                </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="Course.html">COURSE</a></li>
+                        <li><a href="Blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1> World's Biggest University</h1>
+                <p>Making website is now one of the easiest thing in the world <br>You just need to learn HTML, CSS,
+                    Javascript
+                    and you are good to go.</p>
+                <a href="" class="hero-btn">Visit Us to know more</a>
             </div>
-            <i class="fa fa-bars" onclick="showmenu()"></i>
-        </nav>
-        <div class="text-box">
-            <h1> World's Biggest University</h1>
-            <p>Making website is now one of the easiest thing in the world <br>You just need to learn HTML, CSS,
-                Javascript
-                and you are good to go.</p>
-            <a href="" class="hero-btn">Visit Us to know more</a>
-        </div>
-    </section>
+        </section>
 
-    <!---------Course-------->
-    <section class="course">
-        <h1>Courses We Offer</h1>
-        <p>The best way to learn</p>
-        <div class="row">
-            <div class="course-col">
-                <h3> Intermidiate</h3>
-                <p>bla bla bla bla bl bal bal bal balasdasdasdasdasdasdasd </p>
-            </div>
-            <div class="course-col">
-                <h3> Degree</h3>
-                <p>bla bla bla bla bl bal bal bal balsdasdasd asdasdasdasd</p>
-            </div>
-            <div class="course-col">
-                <h3> Post Graduation</h3>
-                <p>bla bla bla bla bl bal bal asdasdasdabal asdasdasdbal asdasdasdasd</p>
-            </div>
-        </div>
-    </section>
-
-    <!------campus------>
-    <section class="campus">
-        <h1>Our Global campus</h1>
-        <p>some thing you need to know about this</p>
-        <div class="row">
-            <div class="campus-col">
-                <img src="Images/london.png" alt="">
-                <div class="layer">
-                    <h3>LONDON</h3>
+        <!---------Course-------->
+        <section class="course">
+            <h1>Courses We Offer</h1>
+            <p>The best way to learn</p>
+            <div class="row">
+                <div class="course-col">
+                    <h3> Intermidiate</h3>
+                    <p>bla bla bla bla bl bal bal bal balasdasdasdasdasdasdasd </p>
+                </div>
+                <div class="course-col">
+                    <h3> Degree</h3>
+                    <p>bla bla bla bla bl bal bal bal balsdasdasd asdasdasdasd</p>
+                </div>
+                <div class="course-col">
+                    <h3> Post Graduation</h3>
+                    <p>bla bla bla bla bl bal bal asdasdasdabal asdasdasdbal asdasdasdasd</p>
                 </div>
             </div>
-            <div class="campus-col">
-                <img src="Images/newyork.png" alt="">
-                <div class="layer">
-                    <h3>NEWYORK</h3>
+        </section>
+
+        <!------campus------>
+        <section class="campus">
+            <h1>Our Global campus</h1>
+            <p>some thing you need to know about this</p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="Images/london.png" alt="">
+                    <div class="layer">
+                        <h3>LONDON</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="Images/newyork.png" alt="">
+                    <div class="layer">
+                        <h3>NEWYORK</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="Images/washington.png" alt="">
+                    <div class="layer">
+                        <h3>WASHINGTON</h3>
+                    </div>
                 </div>
             </div>
-            <div class="campus-col">
-                <img src="Images/washington.png" alt="">
-                <div class="layer">
-                    <h3>WASHINGTON</h3>
+        </section>
+
+        <!----Facilities----->
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>The Best facilities for student</p>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="Images/library.png" alt="">
+                    <h3>World Class libary</h3>
+                    <p>biggest libary of the world</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="Images/basketball.png" alt="">
+                    <h3>Largest Play Ground</h3>
+                    <p>All sport you can play heare</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="Images/cafeteria.png" alt="">
+                    <h3>Tasty and Healthy Food</h3>
+                    <p>some thing about this cafeteria</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!--Testimonials-->
+        <section class="Testimonials">
+            <h1>What Our Student Says</h1>
+            <p>The Best facilities for student</p>
+            <div class="row">
+                <div class="Testimonials-col">
+                    <img src="Images/user1.jpg" alt="">
+                    <div>
+                        <p>
+
+                            I absolutely loved my entire experience at here - I've never regretted my decision
+                            to attend this school for a second. I love the incredible history in our institution. I've
+                            loved
+                            the passionate people, the
+                            professors who people from most other universities only read about, and the opportunities it
+                            affords both on campus and off.
+                        </p>
+                        <h3>Lily Collins </h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="Testimonials-col">
+                    <img src="Images/user2.jpg" alt="">
+                    <div>
+                        <p>
+
+                            Eduford is simply wonderful. The students, here, are amazing. It seems like almost everyday,
+                            you
+                            find out something about a fellow student that is breathtaking that you didn't know. At the
+                            same
+                            time, however, most people are so down-to-earth that you might not ever have guessed their
+                            magnificent accomplishments...and they're extremely nice.
+                        </p>
+                        <h3>Robert Pattinson </h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!----Facilities----->
-    <section class="facilities">
-        <h1>Our Facilities</h1>
-        <p>The Best facilities for student</p>
-        <div class="row">
-            <div class="facilities-col">
-                <img src="Images/library.png" alt="">
-                <h3>World Class libary</h3>
-                <p>biggest libary of the world</p>
+        <!---------Call to action-------->
+        <section class="cta">
+            <h1>
+                <h1>Enroll for our online courses <br>anywhere from the world</h1>
+                <a href="" class="hero-btn">CONTAC US</a>
+            </h1>
+        </section>
+
+        <!---------Footer-------->
+        <section class="footer">
+            <h4>
+                About Us
+            </h4>
+            <p>If you want to know more about us, please contact us following these link <br> Thank you so much and have
+                a
+                nice day. </p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
             </div>
-            <div class="facilities-col">
-                <img src="Images/basketball.png" alt="">
-                <h3>Largest Play Ground</h3>
-                <p>All sport you can play heare</p>
-            </div>
-            <div class="facilities-col">
-                <img src="Images/cafeteria.png" alt="">
-                <h3>Tasty and Healthy Food</h3>
-                <p>some thing about this cafeteria</p>
-            </div>
-
-        </div>
+            <p>Made with <i class="fa fa-heart-o"></i> By PhamDucHuy </p>
+        </section>
     </section>
-
-    <!--Testimonials-->
-    <section class="Testimonials">
-        <h1>What Our Student Says</h1>
-        <p>The Best facilities for student</p>
-        <div class="row">
-            <div class="Testimonials-col">
-                <img src="Images/user1.jpg" alt="">
-                <div>
-                    <p>
-
-                        I absolutely loved my entire experience at here - I've never regretted my decision
-                        to attend this school for a second. I love the incredible history in our institution. I've loved
-                        the passionate people, the
-                        professors who people from most other universities only read about, and the opportunities it
-                        affords both on campus and off.
-                    </p>
-                    <h3>Lily Collins </h3>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-            </div>
-            <div class="Testimonials-col">
-                <img src="Images/user2.jpg" alt="">
-                <div>
-                    <p>
-
-                        Eduford is simply wonderful. The students, here, are amazing. It seems like almost everyday, you
-                        find out something about a fellow student that is breathtaking that you didn't know. At the same
-                        time, however, most people are so down-to-earth that you might not ever have guessed their
-                        magnificent accomplishments...and they're extremely nice.
-                    </p>
-                    <h3>Robert Pattinson </h3>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!---------Call to action-------->
-    <section class="cta">
-        <h1>
-            <h1>Enroll for our online courses <br>anywhere from the world</h1>
-            <a href="" class="hero-btn">CONTAC US</a>
-        </h1>
-    </section>
-
-    <!---------Footer-------->
-    <section class="footer">
-        <h4>
-            About Us
-        </h4>
-        <p>If you want to know more about us, please contact us following these link <br> Thank you so much and have a
-            nice day. </p>
-        <div class="icons">
-            <i class="fa fa-facebook"></i>
-            <i class="fa fa-twitter"></i>
-            <i class="fa fa-instagram"></i>
-            <i class="fa fa-linkedin"></i>
-        </div>
-        <p>Made with <i class="fa fa-heart-o"></i> By PhamDucHuy </p>
-    </section>
-
     <!--------javascript for toggle menu -------->
     <script>
         var navLinks = document.getElementById("navLinks")
@@ -191,6 +202,21 @@
             navLinks.style.right = "-200px";
         }
     </script>
+    <script>
+        const loader = document.querySelector('.loader');
+        const main = document.querySelector('.main');
+
+        function init() {
+            setTimeout(() => {
+                loader.style.opacity = 0;
+                loader.style.display = 'none';
+                main.style.display = 'block';
+                setTimeout(() => (main.style.opacity = 1), 50);
+            }, 3000);
+        }
+        init();
+    </script>
+
 </body>
 
 </html>
